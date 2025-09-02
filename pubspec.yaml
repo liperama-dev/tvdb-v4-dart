@@ -1,0 +1,20 @@
+name: tvdb_v4_dart
+description: A Dart client for TheTVDB API v4. This is a direct translation of the official Python client.
+version: 1.1.0
+homepage: https://github.com/liperama-dev/tvdb-v4-dart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  dio: ^5.3.2
+  meta: ^1.8.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  mocktail: ^1.0.0
